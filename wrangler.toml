@@ -1,0 +1,8 @@
+name = "skin-loadout"
+main = "src/index.js"
+compatibility_date = "2026-08-22"
+[vars]
+GITHUB_OWNER = "TWOJ-LOGIN-GITHUB"
+GITHUB_REPO = "TWOJE-REPO"
+GITHUB_BRANCH = "main"
+ALLOWED_ORIGIN = "https://eee.github.io"
