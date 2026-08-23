@@ -1,0 +1,15 @@
+name = "skin-loadout"
+main = "src/index.js"
+compatibility_date = "2026-08-22"
+
+[vars]
+# --- UZUPEŁNIJ przed wdrożeniem ---
+GITHUB_OWNER = "TWOJ-LOGIN-GITHUB"          # np. "jankowalski"
+GITHUB_REPO = "TWOJE-REPO"                  # repo, w którym leży kolekcje_v20.html
+GITHUB_BRANCH = "main"
+# Domena Twojej strony (CORS). Dla GitHub Pages: https://TWOJ-LOGIN-GITHUB.github.io
+ALLOWED_ORIGIN = "https://TWOJ-LOGIN-GITHUB.github.io"
+
+# Sekrety (NIE wpisuj tu wartości!):
+#   npx wrangler secret put GATE_PASSWORD   ->  wildfire9
+#   npx wrangler secret put GITHUB_TOKEN    ->  fine-grained PAT (Contents: Read and write, tylko to repo)
